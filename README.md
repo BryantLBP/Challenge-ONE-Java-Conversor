@@ -1,4 +1,4 @@
-# Conversor-Challenge-ONE-Java
+# Challenge-ONE-Java-Conversor
 Buenos días/tardes/noches, soy Bryant Baptista y he aquí mi versión del challenge del conversor de unidades, hecho en el lenguaje de programación Java, todo esto gracias al programa ONE y a la gente de Oracle/Alura LATAM.
 # Explicación del funcionamiento del programa
 Primero y al iniciar tenemos una interfaz sencilla en la cual se nos pide elegir una opción entre las disponibles:
