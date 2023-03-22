@@ -6,13 +6,12 @@ public class Conversor {
 	
 	public static void main(String[] args) throws Exception {
 		
-		//Tipos de cambio del dia 17 de marzo de 2023
-		double soles = 3.78;
+		//Tipos de cambio del dia 22 de marzo de 2023 para el sol peruano
 		double dolar = 0.26;
-		double euro = 0.25;
+		double euro = 0.24;
 		double libra =  0.22;
-		double yen = 34.77;
-		double won = 345.17;
+		double yen = 34.78;
+		double won = 343.17;
 		double cantidad = 0;
 		
 		//DecimalFormat para reducir los decimales de los posibles resultados a solo centésimas
@@ -91,27 +90,27 @@ public class Conversor {
 					}
 				
 					case "De Dólar estadounidense a Sol Peruano": {
-						JOptionPane.showMessageDialog(null, "Tienes S/" + df.format(cantidad * soles) + " Soles");
+						JOptionPane.showMessageDialog(null, "Tienes S/" + df.format(cantidad * 3.78) + " Soles");
 						break;
 					}
 				
 					case "De Euro a Sol Peruano": {
-						JOptionPane.showMessageDialog(null, "Tienes S/" + df.format(cantidad * soles) + " Soles");
+						JOptionPane.showMessageDialog(null, "Tienes S/" + df.format(cantidad * 4.10) + " Soles");
 						break;
 					}
 				
 					case "De Libra Esterlina a Sol Peruano": {
-						JOptionPane.showMessageDialog(null, "Tienes S/" + df.format(cantidad * soles) + " Soles");
+						JOptionPane.showMessageDialog(null, "Tienes S/" + df.format(cantidad * 4.64) + " Soles");
 						break;
 					}
 				
 					case "De Yen Japonés a Sol Peruano": {
-						JOptionPane.showMessageDialog(null, "Tienes S/" + df.format(cantidad * soles) + " Soles");
+						JOptionPane.showMessageDialog(null, "Tienes S/" + df.format(cantidad * 0.029) + " Soles");
 						break;
 					}
 				
 					case "De Won sul-coreano a Sol Peruano": {
-						JOptionPane.showMessageDialog(null, "Tienes S/" + df.format(cantidad * soles) + " Soles");
+						JOptionPane.showMessageDialog(null, "Tienes S/" + df.format(cantidad * 0.0029) + " Soles");
 						break;
 					}
 					
